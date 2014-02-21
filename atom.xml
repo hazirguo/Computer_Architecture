@@ -5,13 +5,13 @@ layout: nil
 <feed xmlns="http://www.w3.org/2005/Atom">
  
  <title>Roger Chapman</title>
- <link href="http://rogchap.com/atom.xml" rel="self"/>
- <link href="http://rogchap.com/"/>
+ <link href="http://hazirguo.github.com/Computer_Architecture/atom.xml" rel="self"/>
+ <link href="http://hazirguo.github.com/Computer_Architecture/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://rogchap.com/</id>
+ <id>http://hazirguo.github.com/Computer_Architecture</id>
  <author>
-   <name>Roger Chapman</name>
-   <email>rogchap@gmail.com</email>
+   <name>Hazir Guo</name>
+   <email>hazirguo@gmail.com</email>
  </author>
 
  {% for post in site.posts %}
